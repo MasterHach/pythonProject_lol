@@ -1,0 +1,8 @@
+MANIFEST.in
+setup.py
+funniest.egg-info/PKG-INFO
+funniest.egg-info/SOURCES.txt
+funniest.egg-info/dependency_links.txt
+funniest.egg-info/top_level.txt
+lenin/__init__.py
+lenin/prkt_3_5.py
