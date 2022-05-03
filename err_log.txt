@@ -1,1 +1,4 @@
-invalid literal for int() with base 10: 'ds'
+!! Traceback (most recent call last):
+!!   File "C:\Users\alex\PycharmProjects\pythonProject_lol\prkt_3_6.py", line 21, in funcii
+    print(14 / 0)
+!! ZeroDivisionError: division by zero

@@ -1,0 +1,15 @@
+Тестирование функции bucketsort(n)
+
+>>> from prkt_5_1 import lolkek, bucketsort
+>>> bucketsort(30)
+265252859812191058636308480000000
+>>> bucketsort(-1)
+Traceback (most recent call last):
+    ...
+ValueError: n must be >= 1
+
+
+Тестирование функции lolkek()
+
+>>> lolkek()
+4

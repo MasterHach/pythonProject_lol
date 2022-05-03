@@ -2,14 +2,6 @@ import doctest
 
 
 def bucketsort(n):
-    """
-    >>> bucketsort(30)
-    265252859812191058636308480000000
-    >>> bucketsort(-1)
-    Traceback (most recent call last):
-        ...
-    ValueError: n must be >= 0
-    """
     import math
     if not n >= 0:
         raise ValueError("n must be >= 0")
@@ -25,5 +17,11 @@ def bucketsort(n):
     return result
 
 
+def lolkek():
+    print(4)
+
+
 if __name__ == "__main__":
-    doctest.testmod()
+    # doctest.testfile('test.txt')
+    doctest.testfile("test.txt")
+    # doctest.testmod()
