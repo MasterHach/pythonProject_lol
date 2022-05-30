@@ -29,30 +29,30 @@ def lolkek(name_g, some):
 
 
 lolkek(name, wavin[len(wavin) - 1])
-dot = Digraph(comment='The Test Table')
+# dot = Digraph(comment='The Test Table')
 
 # Добавить точку A, метка A - точка A
-dot.node('A', 'Dot A')
+# dot.node('A', 'Dot A')
 
 # Добавить точку B, метка B - точка B
-dot.node('B', 'Dot B')
+# dot.node('B', 'Dot B')
 # dot.view()
 
 # Добавить точку C, метка C - точка C
-dot.node('C', 'Dot C')
+# dot.node('C', 'Dot C')
 # dot.view()
 
 # Создайте группу ребер, то есть два ребра, соединяющих AB, и одно ребро, соединяющее AC.
-dot.edges(['AB', 'AC', 'AB'])
+# dot.edges(['AB', 'AC', 'AB'])
 # dot.view()
 
 # Создаем границу между двумя точками
-dot.edge('B', 'C', 'test')
+# dot.edge('B', 'C', 'test')
 # dot.view()
 
 
 # Получить строковую форму исходного кода DOT
-print(dot.source)
+# print(dot.source)
 # // The Test Table
 # digraph {
 #   A [label="Dot A"]
